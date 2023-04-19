@@ -1,6 +1,8 @@
 import AboutSection from "@/components/Sections/About";
+import ContactSection from "@/components/Sections/Contact";
 import InitSection from "@/components/Sections/Init";
-// import WorkSection from "@/components/Sections/Works";
+import TechnologiesSection from "@/components/Sections/Technologies";
+import WorkSection from "@/components/Sections/Works";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,10 +14,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main style={{ display: "grid", gap: "5rem" }}>
+      <main style={{ display: "grid", gap: "10rem" }}>
         <InitSection />
         <AboutSection />
-        {/* <WorkSection /> */}
+        <WorkSection />
+        <TechnologiesSection />
+        <ContactSection />
       </main>
     </>
   );
