@@ -3,6 +3,7 @@ import { RainbowText } from "@/ui/texts/rainbowText";
 import styled from "styled-components";
 import { ListOfItems } from "./listOfItems";
 import { HangingP3Svg } from "@/ui/icons/hanging_plants";
+import { general_works } from "@/data/works";
 
 const Section = styled.section`
   position: relative;
@@ -42,29 +43,6 @@ const Content = styled.div`
   }
 `;
 
-const Items = [
-  {
-    title: "Probando API de MELI",
-    description: "Para este desafío, consumis datos de la API de Mercado Libre y los integres a este diseño usando Fetch.",
-  },
-  {
-    title: "Probando API de MELI",
-    description: "Para este desafío, consumis datos de la API de Mercado Libre y los integres a este diseño usando Fetch.",
-  },
-  {
-    title: "Probando API de MELI",
-    description: "Para este desafío, consumis datos de la API de Mercado Libre y los integres a este diseño usando Fetch.",
-  },
-  {
-    title: "Probando API de MELI",
-    description: "Para este desafío, consumis datos de la API de Mercado Libre y los integres a este diseño usando Fetch.",
-  },
-  {
-    title: "Probando API de MELI",
-    description: "Para este desafío, consumis datos de la API de Mercado Libre y los integres a este diseño usando Fetch.",
-  },
-];
-
 const WorkSection = () => (
   <Section>
     <FernBranchSvg className="fernBranch" viewBox="0 0 552 1000" />
@@ -75,7 +53,7 @@ const WorkSection = () => (
         </RainbowText>
         <HangingP3Svg className="hanging_svg" />
       </div>
-      <ListOfItems items={Items} />
+      <ListOfItems items={general_works} />
     </Content>
   </Section>
 );

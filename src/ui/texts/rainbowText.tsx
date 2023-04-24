@@ -5,6 +5,7 @@ import RainbowBaseStyle from "@/utils/rainbowStyle";
 const RainbowTextBase = styled(H1)`
   ${RainbowBaseStyle}
   background-clip: text;
+  -webkit-background-clip: text; /* Chrome */
 `;
 
 const fontsVar = { h1: "--fs-h1", h2: "--fs-h2", p: "--fs-p", span: "--fs-p" };

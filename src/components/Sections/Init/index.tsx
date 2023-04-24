@@ -30,12 +30,12 @@ const InitSection = () => {
       <LeafBranchSvg className="LeafBranchSvg" viewBox="0 0 828 355" />
       <div>
         <RainbowText style={{ textAlign: "center" }}>Hello World!</RainbowText>
-        <div style={{ margin: "0 auto", width: "fit-content" }}>
-          <div style={{ display: "block ruby" }}>
+        <div style={{ margin: "0 auto", width: "max-content" }}>
+          <div style={{ display: "flex" }}>
             <H2 fontFamily="montez">I`m &nbsp;&nbsp;&nbsp;</H2>
             <BrushCard>Leonardo Fontan,</BrushCard>
           </div>
-          <div style={{ display: "block ruby" }}>
+          <div style={{ display: "flex" }}>
             <BrushCard>Web Developer</BrushCard>
             <H2 fontFamily="montez">&nbsp;&nbsp;&nbsp; Full Stack</H2>
           </div>

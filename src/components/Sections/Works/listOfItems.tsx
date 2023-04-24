@@ -43,16 +43,22 @@ const LinksContent = styled.div`
   }
 `;
 
-const ListOfItems = ({ items }: { items: { title: string; description: string }[] }) => {
+const ListOfItems = ({ items }: { items: Work[] }) => {
   return (
     <ul className="FlexWrapList" style={{ marginTop: "10rem" }}>
       {items.map((item, index) => (
         <Card key={index}>
           <H3 className="card_title">{item.title}</H3>
-          <Paragraph className="card_description">{item.description}</Paragraph>
+          {item.description && <Paragraph className="card_description">{item.description}</Paragraph>}
           <LinksContent>
-            <GithubSvg className="githubSvg" />
-            <GlobeSvg className="globeSvg" />
+            <a href={item.repository_url} target="_blank">
+              <GithubSvg className="githubSvg" />
+            </a>
+            {item.site_url && (
+              <a href={item.site_url} target="_blank">
+                <GlobeSvg className="globeSvg" />
+              </a>
+            )}
           </LinksContent>
         </Card>
       ))}
