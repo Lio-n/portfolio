@@ -53,16 +53,21 @@ const Form = styled.form`
     border-color: var(--black);
   }
 
-  .email_alert,
-  .message_alert {
+  .alert_notification-wrong,
+  .alert_notification-rigth {
     display: contents;
     margin-top: 0.2rem;
+  }
+  .alert_notification-wrong {
     color: var(--red);
+  }
+  .alert_notification-right {
+    color: var(--green);
   }
 `;
 
 const FormContact = () => {
-  const [alerts, setAlerts] = useState<{ email: string; message: string }>({ email: "", message: "" });
+  const [alerts, setAlerts] = useState<{ email: string; message: string; isSended: boolean }>({ email: "", message: "", isSended: false });
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
@@ -70,36 +75,37 @@ const FormContact = () => {
     const message = e.target.message.value;
 
     if (!email) {
-      setAlerts({ ...alerts, email: "Empty Email!" });
+      setAlerts({ ...alerts, email: "Empty Email!", isSended: false });
       return;
     }
 
     if (!validateEmail(email)) {
-      setAlerts({ ...alerts, email: "Invalid Email!" });
+      setAlerts({ ...alerts, email: "Invalid Email!", isSended: false });
       return;
     }
 
     if (!message) {
-      setAlerts({ email: "", message: "Empty Message!" });
+      setAlerts({ email: "", message: "Empty Message!", isSended: false });
       return;
     }
 
     sendEmail({ from_name: email, message });
-    setAlerts({ email: "", message: "" });
+    setAlerts({ email: "", message: "", isSended: true });
   };
 
   return (
     <Form onSubmit={handleSubmit}>
       <div className="container_inputs">
         <input name="email" className="input_email" type="text" placeholder="E-mail" />
-        {alerts.email && <Paragraph className="email_alert">{alerts.email}</Paragraph>}
+        {alerts.email && <Paragraph className="alert_notification-wrong">{alerts.email}</Paragraph>}
 
         <textarea name="message" className="input_message" placeholder="Your messsage" />
-        {alerts.message && <Paragraph className="message_alert">{alerts.message}</Paragraph>}
+        {alerts.message && <Paragraph className="alert_notification-wrong">{alerts.message}</Paragraph>}
       </div>
       <button className="form_button">
         <RainbowText typeOfTag="p">Send</RainbowText>
       </button>
+      {alerts.isSended && <Paragraph className="alert_notification-right">E-mail sent!</Paragraph>}
     </Form>
   );
 };

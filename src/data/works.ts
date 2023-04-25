@@ -6,11 +6,19 @@ const current_works: Work[] = [
     repository_url: "",
     site_url: "",
   },
+
   {
     title: "Hobby CalendaryApp",
     description:
       'As a hobby I am building, a website where "The main goal of this project is to give a solid development experience for beginner devs".  For more information see the Documentation at Notion',
     repository_url: "https://github.com/ValhallaProyects/CalendaryApi/tree/dev",
+    site_url: "",
+  },
+  {
+    title: "Second freelance work",
+    description:
+      "I am building my second freelance website. As the same requirements as the First freelance job like a Dashboard, React, Nextjs, MVC, Authentication with JWT Access, Refresh Tokens, Cookies and Axios.",
+    repository_url: "",
     site_url: "",
   },
 ];
@@ -19,21 +27,21 @@ const general_works: Work[] = [
   {
     title: "App película",
     description:
-      "Este fue mi primer Desafio en la Carrera de Apx.School, para este desafio cree una app que tiene que recibir argumentos a través de la terminal y mostrar un listado de películas en el formato que quieras utilizando solamente JavaScript (Para más detalles en el README.md).",
+      "Este fue mi primer Desafio en la Carrera de Apx.School, para este desafio cree una app que tiene que recibir argumentos a través de la terminal y mostrar un listado de películas en el formato que quieras utilizando solamente JavaScript. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m1-desafio",
     site_url: "",
   },
   {
     title: "App pelicula 2.0v",
     description:
-      "Mi Segundo Desafio, es una Version 2.0 del primer Desafio, en el cual utilize la Libreria de minimist para parsear los argumentos introducidos desde la Terminal, junto con POO y Promise, utilizando solamente TypeScript. (Para más detalles en el README.md)",
+      "Mi Segundo Desafio, es una Version 2.0 del primer Desafio, en el cual utilize la Libreria de minimist para parsear los argumentos introducidos desde la Terminal, junto con POO y Promise, utilizando solamente TypeScript. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m2-desafio",
     site_url: "",
   },
   {
     title: "El Primer Diseño que Cree",
     description:
-      "Para mi Tercer Desafio, aprendi a usar HTML & CSS con los cuales Maquete este Diseño, ademas varios conceptos de la Web como TCP/PC, en relacion a CSS aprendi Flex y Grid. (Para más detalles en el README.md)",
+      "Para mi Tercer Desafio, aprendi a usar HTML & CSS con los cuales Maquete este Diseño, ademas varios conceptos de la Web como TCP/PC, en relacion a CSS aprendi Flex y Grid. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m3-desafio",
     site_url: "https://lio-n.github.io/dwf-m3-desafio",
   },
@@ -58,7 +66,8 @@ const general_works: Work[] = [
   },
   {
     title: "SPA : App de Chat",
-    description: "Para este Desafio, cree un website con chatrooms, utilizo Firestore (DB Realtime & DB NoSQL). (Para más detalles en el README.md)",
+    description:
+      "Para este Desafio, cree un website con chatrooms, utilizo Firestore (DB Realtime & DB NoSQL). Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m6-rooms",
     site_url: "",
   },
@@ -71,26 +80,28 @@ const general_works: Work[] = [
   {
     title: "SPA : Pet Finder V1",
     description:
-      "Para este Desafio construi una webapp que permite a cualquier persona, darse de alta, reportar mascotas perdidas y recibir notificaciones de personas que reporten que vieron a tus mascotas. (Para más detalles en el README.md)",
+      "Para este Desafio construi una webapp que permite a cualquier persona, darse de alta, reportar mascotas perdidas y recibir notificaciones de personas que reporten que vieron a tus mascotas. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m7-desafio",
     site_url: "",
   },
   {
     title: "SPA : Pet Finder V2 React",
-    description: "Para este Desafio construi el frontend de 'SPA : Pet Finder V1' con react. (Para más detalles en el README.md)",
+    description:
+      "Para este Desafio construi el frontend de 'SPA : Pet Finder V1' con react. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m8-desafio",
     site_url: "https://dwf-m8-2406.web.app",
   },
   {
     title: "E-commerce: Backend",
     description:
-      "Para este Desafio el backend (API Rest) de un e-commerce donde las personas pueden buscar y comprar productos usando MercadoPago como procesador de pagos. Enchufar un administrador para gestionar el stock de productos. (Para más detalles en el README.md)",
+      "Para este Desafio el backend (API Rest) de un e-commerce donde las personas pueden buscar y comprar productos usando MercadoPago como procesador de pagos. Enchufar un administrador para gestionar el stock de productos. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m9-desafio",
     site_url: "https://dwf-m9-desafio.vercel.app",
   },
   {
     title: "E-commerce: Frontend",
-    description: "Construir el frontend de un e-commerce utilizando Next.js y una arquitectura basada en capas. (Para más detalles en el README.md)",
+    description:
+      "Construir el frontend de un e-commerce utilizando Next.js y una arquitectura basada en capas. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/dwf-m10-desafio",
     site_url: "https://dwf-m10-desafio.vercel.app",
   },
@@ -100,7 +111,7 @@ const frontend_mentor_works: Work[] = [
   {
     title: "Note app react native",
     description:
-      "Construir este Android-Mobile-App utilizando React-native junto con Expo. Apk incluido en README. (Para más detalles en el README.md)",
+      "Construir este Android-Mobile-App utilizando React-native junto con Expo. Apk incluido en README. Para obtener más detalles, consulte el archivo README.md.",
     repository_url: "https://github.com/Lio-n/note-app-react-native",
     site_url: "",
   },

@@ -6,7 +6,6 @@ const Card = styled.li`
   position: relative;
   display: grid;
   place-items: center;
-  max-width: 20rem;
   border-radius: 5px;
   background-color: var(--white);
   padding: 0.5rem;
@@ -43,17 +42,35 @@ const LinksContent = styled.div`
   }
 `;
 
+const Root = styled.ul`
+  columns: 5 20rem;
+  max-width: 85rem;
+
+  li {
+    break-inside: avoid;
+    margin: 0 auto 1rem;
+  }
+
+  @media (min-width: 500px) {
+    & {
+      margin: 1rem;
+    }
+  }
+`;
+
 const ListOfItems = ({ items }: { items: Work[] }) => {
   return (
-    <ul className="FlexWrapList" style={{ marginTop: "10rem" }}>
+    <Root>
       {items.map((item, index) => (
         <Card key={index}>
           <H3 className="card_title">{item.title}</H3>
           {item.description && <Paragraph className="card_description">{item.description}</Paragraph>}
           <LinksContent>
-            <a href={item.repository_url} target="_blank">
-              <GithubSvg className="githubSvg" />
-            </a>
+            {item.repository_url && (
+              <a href={item.repository_url} target="_blank">
+                <GithubSvg className="githubSvg" />
+              </a>
+            )}
             {item.site_url && (
               <a href={item.site_url} target="_blank">
                 <GlobeSvg className="globeSvg" />
@@ -62,7 +79,7 @@ const ListOfItems = ({ items }: { items: Work[] }) => {
           </LinksContent>
         </Card>
       ))}
-    </ul>
+    </Root>
   );
 };
 
