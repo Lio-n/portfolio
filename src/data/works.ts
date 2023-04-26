@@ -3,7 +3,7 @@ const current_works: Work[] = [
     title: "First freelance work",
     description: `I'm building my first freelance website. Implemented Dashboard, React, Nextjs, MVC, Authentication with JWT Access, Refresh Tokens, Cookies and Axios. Including both frontend & backend. Hosted on a VPS along with Nginx, ufw, Cerbot, SSL & LetsEncrypt, PM2 and Docker. For this i made little <strong><a href="https://jungle-tea-1ef.notion.site/VPS-Virtual-Private-Server-a7094f0e54e54230a3439b39e643a9e2" target="_black">"Guide" at Notion</a></strong>.`,
     repository_url: "",
-    site_url: "https://jungle-tea-1ef.notion.site/VPS-Virtual-Private-Server-a7094f0e54e54230a3439b39e643a9e2",
+    site_url: "",
   },
 
   {

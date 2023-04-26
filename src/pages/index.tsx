@@ -1,17 +1,28 @@
-import AboutSection from "@/components/Sections/About";
-import ContactSection from "@/components/Sections/Contact";
+import { Suspense, lazy } from "react";
 import InitSection from "@/components/Sections/Init";
-import TechnologiesSection from "@/components/Sections/Technologies";
-import WorkSection from "@/components/Sections/Works";
+
+const LazyAboutSection = lazy(() => import("@/components/Sections/About"));
+const LazyWorkSection = lazy(() => import("@/components/Sections/Works"));
+const LazyTechnologiesSection = lazy(() => import("@/components/Sections/Technologies"));
+const LazyContactSection = lazy(() => import("@/components/Sections/Contact"));
 
 export default function Home() {
   return (
     <>
       <InitSection />
-      <AboutSection />
-      <WorkSection />
-      <TechnologiesSection />
-      <ContactSection />
+
+      <Suspense>
+        <LazyAboutSection />
+      </Suspense>
+      <Suspense>
+        <LazyWorkSection />
+      </Suspense>
+      <Suspense>
+        <LazyTechnologiesSection />
+      </Suspense>
+      <Suspense>
+        <LazyContactSection />
+      </Suspense>
     </>
   );
 }
