@@ -130,7 +130,11 @@ const ContactSection = () => {
       <div className="container_plants">
         <div style={{ position: "relative" }}>
           <HangingP4Svg className="hangingP4_svg" viewBox="0 0 165 360" />
-          <a href="https://github.com/Lio-n" target="_black" className="plants_link-container">
+          <a
+            href="https://github.com/Lio-n"
+            target="_black"
+            className="plants_link-container"
+            title={`Click here to open a new tab to the Lio-n github profile.`}>
             <Rainbow>
               <GithubIconSvg viewBox="0 0 128 128" className="GithubIconSvg" />
             </Rainbow>
@@ -139,7 +143,11 @@ const ContactSection = () => {
 
         <div style={{ position: "relative" }}>
           <HangingP2Svg className="hangingP2_svg" viewBox="0 0 145 296" />
-          <a href="https://www.linkedin.com/in/leonardo-fontan/" target="_black" className="plants_link-container">
+          <a
+            href="https://www.linkedin.com/in/leonardo-fontan/"
+            target="_black"
+            className="plants_link-container"
+            title={`Click here to open a new tab to the Leonardo Fontan linkedin profile.`}>
             <Rainbow>
               <LinkedinIconSvg viewBox="0 0 90 90" className="LinkedinIconSvg" />
             </Rainbow>

@@ -78,12 +78,12 @@ const ListOfItems = ({ items }: { items: Work[] }) => {
           {item.description && <p className="card_description" dangerouslySetInnerHTML={{ __html: item.description }}></p>}
           <LinksContent>
             {item.repository_url && (
-              <a href={item.repository_url} target="_blank">
+              <a href={item.repository_url} target="_blank" title={`Click here to open a new tab to the repository ${item.title}.`}>
                 <GithubSvg className="githubSvg" />
               </a>
             )}
             {item.site_url && (
-              <a href={item.site_url} target="_blank">
+              <a href={item.site_url} target="_blank" title={`Click here to open a new tab to the page ${item.title}.`}>
                 <GlobeSvg className="globeSvg" />
               </a>
             )}
