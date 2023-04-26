@@ -1,24 +1,29 @@
 const current_works: Work[] = [
   {
     title: "First freelance work",
-    description:
-      "I'm building my first freelance website. Implemented Dashboard, React, Nextjs, MVC, Authentication with JWT Access, Refresh Tokens, Cookies and Axios.",
+    description: `I'm building my first freelance website. Implemented Dashboard, React, Nextjs, MVC, Authentication with JWT Access, Refresh Tokens, Cookies and Axios. Including both frontend & backend. Hosted on a VPS along with Nginx, ufw, Cerbot, SSL & LetsEncrypt, PM2 and Docker. For this i made little <strong><a href="https://jungle-tea-1ef.notion.site/VPS-Virtual-Private-Server-a7094f0e54e54230a3439b39e643a9e2" target="_black">"Guide" at Notion</a></strong>.`,
     repository_url: "",
-    site_url: "",
+    site_url: "https://jungle-tea-1ef.notion.site/VPS-Virtual-Private-Server-a7094f0e54e54230a3439b39e643a9e2",
   },
 
   {
     title: "Hobby CalendaryApp",
     description:
-      'As a hobby I am building, a website where "The main goal of this project is to give a solid development experience for beginner devs".  For more information see the <a href="https://jungle-tea-1ef.notion.site/Calendary-App-Docs-6ed8a93a8c1d4d5a92a718c61caef648" target="_black">Documentation at Notion</a>',
+      'As a hobby I am building, a website where "The main goal of this project is to give a solid development experience for beginner devs".  For more information see the <strong><a href="https://jungle-tea-1ef.notion.site/Calendary-App-Docs-6ed8a93a8c1d4d5a92a718c61caef648" target="_black">Documentation at Notion</a></strong>',
     repository_url: "https://github.com/ValhallaProyects/CalendaryApi/tree/dev",
     site_url: "",
   },
   {
     title: "Second freelance work",
     description:
-      "I am building my second freelance website. As the same requirements as the First freelance job like a Dashboard, React, Nextjs, MVC, Authentication with JWT Access, Refresh Tokens, Cookies and Axios.",
+      "I am building my second freelance website. As the same requirements as the First freelance job like a Dashboard, React, Nextjs, MVC, Authentication with JWT Access, Refresh Tokens, Cookies and Axios. Including the VPS.",
     repository_url: "",
+    site_url: "",
+  },
+  {
+    title: "This Portfolio",
+    description: "As a little extra i add the repository of this portfolio.",
+    repository_url: "https://github.com/Lio-n/portfolio",
     site_url: "",
   },
 ];
@@ -26,8 +31,7 @@ const current_works: Work[] = [
 const general_works: Work[] = [
   {
     title: "App movie",
-    description: `
-      This was my first <strong><a href="https://apx.school" target="_black">Apx.School</a></strong> Career Challenge, for this challenge I created an application that has to receive arguments through the terminal and display a list of movies in the format you want using only JavaScript. For more details, see the README.md file.`,
+    description: `This was my first <strong><a href="https://apx.school" target="_black">Apx.School</a></strong> Career Challenge, for this challenge I created an application that has to receive arguments through the terminal and display a list of movies in the format you want using only JavaScript. For more details, see the README.md file.`,
     repository_url: "https://github.com/Lio-n/dwf-m1-desafio",
     site_url: "",
   },
@@ -109,7 +113,7 @@ const general_works: Work[] = [
 const frontend_mentor_works: Work[] = [
   {
     title: "Note app react native",
-    description: `Build this Android-Mobile-App using React-native together with Expo. <a href="https://drive.google.com/file/d/1D4uMJZLE7KIF9PT7WDSQGpUBJWMTznz9/view" target="_black">Apk</a> included in README. For more details, see the README.md file.`,
+    description: `Build this Android-Mobile-App using React-native together with Expo. <strong><a href="https://drive.google.com/file/d/1D4uMJZLE7KIF9PT7WDSQGpUBJWMTznz9/view" target="_black">Apk</a></strong> included in README. For more details, see the README.md file.`,
     repository_url: "https://github.com/Lio-n/note-app-react-native",
     site_url: "",
   },
