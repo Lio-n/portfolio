@@ -8,7 +8,7 @@ const Switch = styled.button`
   border: none;
   border-radius: 5px;
   background-color: var(--white);
-  opacity: 0.5;
+  opacity: 0.7;
   font-size: var(--fs-p);
   font-family: ${indieFlower.style.fontFamily};
   font-weight: 600;

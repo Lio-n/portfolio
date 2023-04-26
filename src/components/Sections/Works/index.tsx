@@ -15,6 +15,7 @@ const Section = styled.section`
     right: clamp(-25rem, -35vw, -20rem);
     width: 100%;
     min-width: 40rem;
+    max-width: 55rem;
     z-index: -1;
   }
 `;
