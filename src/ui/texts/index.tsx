@@ -22,25 +22,25 @@ const H1 = styled.h1<TextProps>`
   font-size: var(--fs-h1);
 `;
 
-const H2 = ({ style, children, className, color }: TextProps) => {
+const H2 = ({ style, children, className, color, fontFamily }: TextProps) => {
   return (
-    <H1 as="h2" color={color} style={{ ...style, fontSize: "var(--fs-h2)" }} className={className}>
+    <H1 as="h2" color={color} fontFamily={fontFamily} style={{ ...style, fontSize: "var(--fs-h2)" }} className={className}>
       {children}
     </H1>
   );
 };
 
-const H3 = ({ style, children, className, color }: TextProps) => {
+const H3 = ({ style, children, className, color, fontFamily }: TextProps) => {
   return (
-    <H1 as="h2" color={color} style={{ ...style, fontSize: "var(--fs-h3)" }} className={className}>
+    <H1 as="h2" color={color} fontFamily={fontFamily} style={{ ...style, fontSize: "var(--fs-h3)" }} className={className}>
       {children}
     </H1>
   );
 };
 
-const Paragraph = ({ style, children, className, color }: TextProps) => {
+const Paragraph = ({ style, children, className, color, fontFamily }: TextProps) => {
   return (
-    <H1 as="p" color={color} style={{ ...style, fontSize: "var(--fs-p)" }} className={className}>
+    <H1 as="p" color={color} fontFamily={fontFamily} style={{ ...style, fontSize: "var(--fs-p)" }} className={className}>
       {children}
     </H1>
   );

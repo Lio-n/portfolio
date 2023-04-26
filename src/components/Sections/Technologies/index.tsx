@@ -25,6 +25,7 @@ const Section = styled.section`
     max-height: 40rem;
     max-width: 35rem;
     top: -15rem;
+    z-index: -1;
   }
 `;
 

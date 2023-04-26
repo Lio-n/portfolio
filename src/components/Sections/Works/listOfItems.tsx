@@ -1,6 +1,7 @@
 import { GithubSvg, GlobeSvg } from "@/ui/icons";
-import { H3, Paragraph } from "@/ui/texts";
+import { H3 } from "@/ui/texts";
 import styled from "styled-components";
+import { indieFlower } from "@/utils/fonts";
 
 const Card = styled.li`
   position: relative;
@@ -19,6 +20,14 @@ const Card = styled.li`
 
   .card_description {
     color: var(--black);
+    font-family: ${indieFlower.style.fontFamily};
+    font-size: var(--fs-p);
+
+    a,
+    a:visited {
+      color: #f81ce5;
+      text-decoration: none;
+    }
   }
 `;
 
@@ -64,7 +73,9 @@ const ListOfItems = ({ items }: { items: Work[] }) => {
       {items.map((item, index) => (
         <Card key={index}>
           <H3 className="card_title">{item.title}</H3>
-          {item.description && <Paragraph className="card_description">{item.description}</Paragraph>}
+
+          {/* {item.description && <Paragraph className="card_description">{item.description}</Paragraph>} */}
+          {item.description && <p className="card_description" dangerouslySetInnerHTML={{ __html: item.description }}></p>}
           <LinksContent>
             {item.repository_url && (
               <a href={item.repository_url} target="_blank">

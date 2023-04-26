@@ -9,6 +9,7 @@ const Section = styled.section`
   .seedsBranch,
   .dandelion {
     position: absolute;
+    z-index: -1;
   }
   .seedsBranch {
     left: -4rem;

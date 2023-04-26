@@ -53,6 +53,7 @@ const Section = styled.section`
     position: absolute;
     top: 30rem;
     max-width: 45rem;
+    z-index: -1;
   }
 `;
 
