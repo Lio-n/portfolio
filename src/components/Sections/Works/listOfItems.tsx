@@ -25,7 +25,7 @@ const Card = styled.li`
 
     a,
     a:visited {
-      color: #f81ce5;
+      color: var(--pink);
       text-decoration: none;
     }
   }
