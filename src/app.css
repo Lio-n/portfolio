@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../src/assets/fonts/NeueMachina-Ultrabold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../src/assets/fonts/NeueMachina-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/NeueMachina-Light.otf') format('opentype');
+}
+
+:root {
+  --font-body: 'Neue Machina', Ubuntu, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+a {
+  width: fit-content;
+}
+
+@media (max-width: 450px) {
+  :root {
+    font-size: clamp(5px, 4vw, 15px);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+::selection {
+  background: rgba(179, 243, 251, 0.5);
+}
