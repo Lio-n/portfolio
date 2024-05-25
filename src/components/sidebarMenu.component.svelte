@@ -18,7 +18,7 @@
   />
 
   {#if displayMenu}
-    <div class="absolute bg-white left-0 top-0 bottom-0 h-screen shadow md:hidden">
+    <div class="bg-white left-0 top-0 bottom-0 h-screen shadow md:hidden fixed z-10">
       <img
         src={ArrowCircleIcon}
         class="shadow w-8 absolute right-[-15px] top-8 rounded-full cursor-pointer"

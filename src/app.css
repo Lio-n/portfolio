@@ -46,6 +46,12 @@
 body {
   overflow-x: hidden;
 }
+
+main {
+  display: grid;
+  gap: 5rem;
+}
+
 a {
   width: fit-content;
 }

@@ -1,0 +1,89 @@
+{
+"ALL": [
+  {
+     "title": "New West App",
+    "description": "NewWest is an information platform that presents itself as an innovative news source, offering a fresh and modern perspective on current events. With a focus on innovation and exploring new frontiers, NewWest seeks to be a trusted destination for those seeking to discover and understand the ever-evolving world around us.",
+    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
+    "repository_url": "https://github.com/Lio-n/new-west-app",
+    "site_url": "https://new-west-app.vercel.app/",
+    "stack":["Vite.Js","Graphql","React.Js","TypeScript","Vercel","TailwindCss","Day.Js","ESLint","Apollo/Client"]
+  },
+  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  },
+  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  },
+  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  }
+
+]
+
+,"CURRENT WORKS": [  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/412/536/354.jpg?hmac=1vUABwEmzMvbRIt9sToX9KMxMwhsDo8xrQ7y9qLn-58",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  },
+  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/412/536/354.jpg?hmac=1vUABwEmzMvbRIt9sToX9KMxMwhsDo8xrQ7y9qLn-58",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  },
+  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/412/536/354.jpg?hmac=1vUABwEmzMvbRIt9sToX9KMxMwhsDo8xrQ7y9qLn-58",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  }
+],
+
+"FRONTEND MENTOR": [  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/342/536/354.jpg?hmac=K-ESEHS3wF-ZpxqAaotUXPwUrPqGkKCheTp-QERQNyg",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  },
+  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/342/536/354.jpg?hmac=K-ESEHS3wF-ZpxqAaotUXPwUrPqGkKCheTp-QERQNyg",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  },
+  {
+     "title": "",
+    "description": "",
+    "image_url":"https://fastly.picsum.photos/id/342/536/354.jpg?hmac=K-ESEHS3wF-ZpxqAaotUXPwUrPqGkKCheTp-QERQNyg",
+    "repository_url": "",
+    "site_url": ""
+  ,"stack":[]
+  }
+]
+}

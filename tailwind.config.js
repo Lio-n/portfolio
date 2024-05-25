@@ -11,7 +11,7 @@ export default {
   },
   safelist: [
     {
-      pattern: /(text|decoration|border)-(nero)/,
+      pattern: /(text|decoration|border|nero)-(nero)/,
       pattern: /(decoration)-(vivid-blue)/,
     },
   ],
