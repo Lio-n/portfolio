@@ -1,13 +1,16 @@
+<script lang="ts" context="module">
+  export type TabVariant = 'ALL' | 'CURRENT WORKS' | 'FRONTEND MENTOR';
+</script>
+
 <script lang="ts">
   import Button from '../ui/atoms/button.atom.svelte';
-  export let listenCurrentTab: (tab: Tab) => {};
+  export let listenCurrentTab: (tab: TabVariant) => void;
 
-  type Tab = 'ALL' | 'CURRENT WORKS' | 'FRONTEND MENTOR';
-  let ActiveTab: Tab = 'ALL';
+  let ActiveTab: TabVariant = 'ALL';
 
   const handleChangeTab = (e: MouseEvent) => {
     const target = e.target as HTMLButtonElement;
-    ActiveTab = target.id as Tab;
+    ActiveTab = target.id as TabVariant;
 
     listenCurrentTab(ActiveTab);
   };
