@@ -33,18 +33,18 @@
   };
 </script>
 
-<section id="#proyects" class="mb-40 p-4 md:grid md:grid-cols-[40%,60%] md:grid-rows-[auto,1fr] relative">
+<section id="#proyects" class="mb-40 p-4 md:h-[428px] md:grid md:grid-cols-[40%,60%] md:grid-rows-[auto,1fr] relative">
   <Tab>PROYECTS</Tab>
 
-  <div class="relative md:row-start-1 md:row-end-3">
+  <div class="relative md:row-start-1 md:row-end-3 md:self-end">
     <img src={StarIcon} alt="Star icon" aria-hidden="true" class="hidden md:block absolute top-[-3rem] left-[5rem]" />
     <img
       src={StarIcon}
       alt="Star icon"
       aria-hidden="true"
-      class="hidden md:block absolute top-[5rem] right-[-6rem] z-[-1]"
+      class="hidden md:block absolute top-[1rem] right-[-6rem] z-[-1]"
     />
-    <img src={TelescopeIllustration} alt="telescope-illustration" aria-hidden="true" class="h-80 md:h-full w-full" />
+    <img src={TelescopeIllustration} alt="telescope-illustration" aria-hidden="true" class="h-80 w-full" />
   </div>
 
   <div>
@@ -60,7 +60,7 @@
       {/if}
 
       {#if totalPages > 1}
-        <div class="mt-8 flex justify-end">
+        <div class="mt-8 flex justify-end absolute right-0">
           <Pagination pageCount={totalPages} {onChange} />
         </div>
       {/if}
