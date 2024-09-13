@@ -17,30 +17,35 @@
   import TailwindCssLogo from '../assets/logos/tailwindcss.svg';
   import ViteJsLogo from '../assets/logos/vitejs.svg';
   import VsCodeLogo from '../assets/logos/vscode.svg';
+  import HtmlLogo from '../assets/logos/html5.svg';
 
   const logos = [
     null,
     null,
+    AxiosLogo,
     FirebaseLogo,
     JavaScriptLogo,
     null,
-    AxiosLogo,
     Css3Logo,
-    ViteJsLogo,
     FigmaLogo,
     NodeJsLogo,
+    ViteJsLogo,
+
     NpmLogo,
+    HtmlLogo,
     VsCodeLogo,
     ReactJsLogo,
     TypescriptLogo,
-    SvelteLogo,
+    GithubLogo,
+
     GitLogo,
-    AtomicDesignLogo,
-    TailwindCssLogo,
+    SvelteLogo,
     PostgresqlLogo,
     null,
+    AtomicDesignLogo,
     NextJsLogo,
-    GithubLogo,
+
+    TailwindCssLogo,
     null,
     null,
   ];
@@ -48,8 +53,8 @@
 
 {#each logos as _, i}
   {#if _}
-    <img src={_} alt="logo" aria-hidden="true" class="size-16 md:size-20" />
+    <img src={_} alt="logo" aria-hidden="true" class="object-contain size-12" />
   {:else}
-    <div class="size-16 md:size-20" />
+    <div class="size-12" />
   {/if}
 {/each}

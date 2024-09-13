@@ -39,6 +39,10 @@
   font-family: var(--font-body);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -49,7 +53,7 @@ body {
 
 main {
   display: grid;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 a {

@@ -7,6 +7,6 @@
     : 'hover:text-vivid-blue';
 </script>
 
-<button on:click {id} class="{activeStyle} transition text-nero text-sm font-black px-4 py-2">
+<button on:click {id} class="{activeStyle} transition text-nero text-xs font-black px-4 py-2">
   <slot />
 </button>
