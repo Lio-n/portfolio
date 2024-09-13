@@ -1,6 +1,6 @@
 <script lang="ts">
-  import TelescopeIllustration from '../../assets/telescope.svg';
-  import StarIcon from '../../assets/star.svg';
+  import TelescopeIllustration from '../../assets/illustrations/telescope.svg';
+  import StarIcon from '../../assets/icons/star.svg';
   import Tab from '../../ui/atoms/tab.atom.svelte';
   import Tabs, { type TabVariant } from '../tabs.component.svelte';
   import WorkJson from '../../data/works.json';

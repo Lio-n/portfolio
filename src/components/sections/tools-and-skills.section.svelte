@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ManWithNetIllustration from '../../assets/man-with-net.svg';
+  import ManWithNetIllustration from '../../assets/illustrations/man-with-net.svg';
   import Tab from '../../ui/atoms/tab.atom.svelte';
   import Typography from '../../ui/atoms/typography.atom.svelte';
   import LogosList from '../logosList.component.svelte';

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import GithubIcon from '../assets/github.svg';
-  import LinkedinIcon from '../assets/linkedin.svg';
+  import GithubIcon from '../assets/icons/github.svg';
+  import LinkedinIcon from '../assets/icons/linkedin.svg';
   import NavContent from './navContent.component.svelte';
   import SideBarManu from './sidebarMenu.component.svelte';
 </script>

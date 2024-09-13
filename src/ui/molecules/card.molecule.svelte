@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-  import CloseIcon from '../../assets/x-circle-fill.svg';
+  import CloseIcon from '../../assets/icons/x-circle-fill.svg';
   import Tab from '../atoms/tab.atom.svelte';
   export type Work = {
     title: string;

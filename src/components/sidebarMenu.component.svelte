@@ -1,6 +1,6 @@
 <script lang="ts">
-  import CombinedShapeIcon from '../assets/combined-shape.svg';
-  import ArrowCircleIcon from '../assets/arrow-circle-fill.svg';
+  import CombinedShapeIcon from '../assets/icons/combined-shape.svg';
+  import ArrowCircleIcon from '../assets/icons/arrow-circle-fill.svg';
   import NavContent from './navContent.component.svelte';
 
   let displayMenu = false;

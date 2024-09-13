@@ -1,6 +1,6 @@
 <script>
   import Typography from '../../ui/atoms/typography.atom.svelte';
-  import RocketToMoonIllustration from '../../assets/rocket-to-moon.svg';
+  import RocketToMoonIllustration from '../../assets/illustrations/rocket-to-moon.svg';
 </script>
 
 <section class="p-4 md:grid md:grid-cols-[60%,40%] lg:grid-cols-[70%,30%] lg:gap-4">
