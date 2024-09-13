@@ -59,13 +59,13 @@
       <CardThumbnailList listenClick={handleSelectedCard} works={sharp} />
 
       {#if currentWork}
-        <div class="fixed top-0 left-0 size-full md:absolute md:grid md:w-[38%]">
-          <Card item={currentWork} on:click={() => handleSelectedCard(null)} class="md:max-h-60" />
+        <div class="fixed top-0 left-0 z-[10] size-full md:absolute md:grid md:w-[38%]">
+          <Card item={currentWork} on:click={() => handleSelectedCard(null)} class="md:max-h-72" />
         </div>
       {/if}
 
       {#if totalPages > 1}
-        <div class="mt-8 flex justify-end absolute right-0">
+        <div class="mt-8 flex justify-end absolute right-4">
           <Pagination pageCount={totalPages} {onChange} />
         </div>
       {/if}

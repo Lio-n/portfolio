@@ -21,7 +21,7 @@
     <img
       src={item.image_url}
       alt="Website Live - {item.title}"
-      class="md:rounded-tl-lg md:rounded-tr-lg max-h-60 w-full object-cover"
+      class="md:rounded-tl-lg md:rounded-tr-lg max-h-40 w-full md:max-h-40 object-cover"
     />
     <button on:click class="absolute top-4 right-4">
       <img src={CloseIcon} alt="Close Button" class="size-8 shadow-md shadow-white rounded-full" />
