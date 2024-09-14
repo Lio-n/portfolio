@@ -1,107 +1,191 @@
 {
-"ALL": [
-  {
-     "title": "New West App",
-    "description": "NewWest is an information platform that presents itself as an innovative news source, offering a fresh and modern perspective on current events. With a focus on innovation and exploring new frontiers, NewWest seeks to be a trusted destination for those seeking to discover and understand the ever-evolving world around us.",
-    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
-    "repository_url": "https://github.com/Lio-n/new-west-app",
-    "site_url": "https://new-west-app.vercel.app/",
-    "stack":["Vite.Js","Graphql","React.Js","TypeScript","Vercel","TailwindCss","Day.Js","ESLint","Apollo/Client"]
-  },
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  },
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  },
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  }
-  ,
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  }
-  ,
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/1011/536/354.jpg?hmac=LGHJafiUaUnfQwBLZbN6-61f2kM8LI1y3Wm4-FJYZrA",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  }
+  "JOBS": [
+    {
+      "title": "Tribekya",
+      "position": "FullStack Developer",
+      "description": "Collaborative platform where you will learn in a way that defies traditional dogmas.",
+      "image_url": "src/assets/works/jobs/tribekya.png",
+      "repository_url": null,
+      "site_url": "https://www.tribekya.com/",
+      "stack": [
+        "ReactJS",
+        "NextJS",
+        "TypeScript",
+        "TailwindCSS",
+        "Node.js",
+        "ExpressJS",
+        "MongoDB",
+        "GraphQL",
+        "Docker",
+        "Jira",
+        "Notion",
+        "Slack",
+        "GitFlow",
+        "Craco"
+      ]
+    },
+    {
+      "title": "Typeland",
+      "position": "Backend Developer",
+      "description": "We provide cutting edge software and experiences for our clients and developers.",
+      "image_url": "src/assets/works/jobs/typeland.png",
+      "repository_url": null,
+      "site_url": "https://typeland.tech/",
+      "stack": ["Node.js", "Express.js", "Docker"]
+    }
+  ],
 
-]
+  "PROYECTS": [
+    {
+      "title": "New West App",
+      "position": "FullStack Developer",
+      "description": "An information platform that presents itself as an innovative news source, offering a fresh and modern perspective on current events. With a focus on innovation and exploring new frontiers, NewWest seeks to be a trusted destination for those seeking to discover and understand the ever-evolving world around us.",
+      "image_url": "src/assets/works/proyects/new-west-app.png",
+      "repository_url": "https://github.com/Lio-n/new-west-app",
+      "site_url": "https://new-west-app.vercel.app/",
+      "stack": [
+        "Vite.Js",
+        "Graphql",
+        "React.Js",
+        "TypeScript",
+        "Vercel",
+        "TailwindCss",
+        "Day.Js",
+        "ESLint",
+        "Apollo/Client"
+      ]
+    },
+    {
+      "title": "Eloquent Journey",
+      "position": "Frontend Developer",
+      "description": "Personal articles website, which includes a dashboard for the creation, editing and publication status of articles.",
+      "image_url": "src/assets/works/proyects/eloquent-journey.jpeg",
+      "repository_url": "https://github.com/Lio-n/eloquent-journey-app",
+      "site_url": "https://eloquent-journey-app.vercel.app/",
+      "stack": ["Pico.css", "Editor.Js", "Redux.Js", "React.Js", "Styled-Components", "Vite.Js", "Vercel", "Typescript"]
+    },
+    {
+      "title": "Strukture Landing Page",
+      "position": "Frontend Developer",
+      "description": "We are Struktura, your trusted partner in the world of construction. With a legacy of excellence and a commitment to quality, we turn your visions into reality",
+      "image_url": "src/assets/works/proyects/struktura.png",
+      "repository_url": "https://github.com/Lio-n/struktura",
+      "site_url": "https://struktura-lemon.vercel.app/",
+      "stack": [
+        "React.Js",
+        "Styled-Components",
+        "Vite.Js",
+        "Vercel",
+        "Typescript",
+        "TailwindCSS",
+        "Atomic Design",
+        "Mobile First"
+      ]
+    }
+  ],
 
-,"CURRENT WORKS": [  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/412/536/354.jpg?hmac=1vUABwEmzMvbRIt9sToX9KMxMwhsDo8xrQ7y9qLn-58",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  },
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/412/536/354.jpg?hmac=1vUABwEmzMvbRIt9sToX9KMxMwhsDo8xrQ7y9qLn-58",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  },
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/412/536/354.jpg?hmac=1vUABwEmzMvbRIt9sToX9KMxMwhsDo8xrQ7y9qLn-58",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  }
-],
+  "FRONTEND MENTOR": [
+    {
+      "title": "Multi Step Form (Svelte)",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/multi-step-form.png",
+      "repository_url": "https://github.com/Lio-n/FM-multi-step-form",
+      "site_url": "https://fm-multi-step-form-one.vercel.app/",
+      "stack": ["Svelte", "Typescript", "Vite.Js"]
+    },
+    {
+      "title": "Newsletter Subcription",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/fm-newsletter.png",
+      "repository_url": "https://github.com/Lio-n/FM-newsletter",
+      "site_url": "https://fm-newsletter-nine.vercel.app/",
+      "stack": ["HTML", "CSS", "Typescript", "TailwindCss", "Vite.Js"]
+    },
+    {
+      "title": "Note App",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/note-app.png",
+      "repository_url": "https://github.com/Lio-n/FM-note-app",
+      "site_url": "https://fm-note-app.vercel.app/",
+      "stack": ["React.Js", "Recoil", "Styled-Components", "Jest", "Vitest", "Typescript", "TailwindCss", "Vite.Js"]
+    },
+    {
+      "title": "Base Apparel coming soon solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/base-apparel.png",
+      "repository_url": "https://github.com/Lio-n/FM-base-apparel-page-challenge",
+      "site_url": "https://lio-n.github.io/FM-base-apparel-page-challenge/",
+      "stack": ["HTML", "CSS", "Javascript"]
+    },
 
-"FRONTEND MENTOR": [  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/342/536/354.jpg?hmac=K-ESEHS3wF-ZpxqAaotUXPwUrPqGkKCheTp-QERQNyg",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  },
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/342/536/354.jpg?hmac=K-ESEHS3wF-ZpxqAaotUXPwUrPqGkKCheTp-QERQNyg",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  },
-  {
-     "title": "",
-    "description": "",
-    "image_url":"https://fastly.picsum.photos/id/342/536/354.jpg?hmac=K-ESEHS3wF-ZpxqAaotUXPwUrPqGkKCheTp-QERQNyg",
-    "repository_url": "",
-    "site_url": ""
-  ,"stack":[]
-  }
-]
+    {
+      "title": "Stats preview card component solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/stats-preview.png",
+      "repository_url": "https://github.com/Lio-n/FM-stats-preview-card-component",
+      "site_url": "https://lio-n.github.io/FM-stats-preview-card-component",
+      "stack": ["HTML", "CSS"]
+    },
+
+    {
+      "title": "Order summary card solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/order_summary.png",
+      "repository_url": "https://github.com/Lio-n/FM-order-summary-component-main",
+      "site_url": "https://lio-n.github.io/FM-order-summary-component-main/",
+      "stack": ["HTML", "CSS"]
+    },
+    {
+      "title": "3-column preview card component solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/column-preview.png",
+      "repository_url": "https://github.com/Lio-n/FM-3-column-preview-card-component",
+      "site_url": "https://lio-n.github.io/FM-3-column-preview-card-component/",
+      "stack": ["HTML", "CSS"]
+    },
+
+    {
+      "title": "Testimonials grid section solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/testimonials.png",
+      "repository_url": "https://github.com/Lio-n/FM-testimonials-grid-section",
+      "site_url": "https://lio-n.github.io/FM-testimonials-grid-section/",
+      "stack": ["HTML", "CSS"]
+    },
+    {
+      "title": "IP address tracker solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/ip-tracker.png",
+      "repository_url": "https://github.com/Lio-n/FM-IP-address-tracker",
+      "site_url": "https://lio-n.github.io/FM-IP-address-tracker/",
+      "stack": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "title": "Rock, Paper, Scissors solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/rock-paper-scissors.png",
+      "repository_url": "https://github.com/Lio-n/FM-rock-paper-scissors",
+      "site_url": "https://lio-n.github.io/FM-rock-paper-scissors/",
+      "stack": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "title": "NFT preview card component solution",
+      "position": "Frontend Developer",
+      "description": null,
+      "image_url": "src/assets/works/frontend_mentor/nft-preview.png",
+      "repository_url": "https://github.com/Lio-n/FM-NFT-preview-card",
+      "site_url": "https://lio-n.github.io/FM-NFT-preview-card/",
+      "stack": ["HTML", "CSS"]
+    }
+  ]
 }

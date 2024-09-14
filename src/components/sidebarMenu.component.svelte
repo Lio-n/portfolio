@@ -14,14 +14,14 @@
     alt="menu-icon"
     aria-hidden="true"
     on:click={showSideMenu}
-    class="md:hidden cursor-pointer"
+    class="md:hidden cursor-pointer py-2"
   />
 
   {#if displayMenu}
     <div class="bg-white left-0 top-0 bottom-0 h-screen shadow md:hidden fixed z-10">
       <img
         src={ArrowCircleIcon}
-        class="shadow w-8 absolute right-[-15px] top-8 rounded-full cursor-pointer"
+        class="shadow w-8 absolute right-[-15px] top-4 rounded-full cursor-pointer"
         alt="arrow-circle-icon"
         aria-hidden="true"
         on:click={showSideMenu}

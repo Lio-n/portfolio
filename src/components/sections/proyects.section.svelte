@@ -9,7 +9,7 @@
   import CardThumbnailList from '../cardThumbnailList.component.svelte';
   import Pagination from '../pagination.component.svelte';
 
-  let currentTab: TabVariant = 'ALL';
+  let currentTab: TabVariant = 'JOBS';
   let currentWork: Work | null;
 
   const handleSelectedCard = (id: string | number | null) => {
@@ -33,8 +33,8 @@
   };
 </script>
 
-<section id="proyects" class="p-4 md:h-[428px] md:grid md:grid-cols-[40%,60%] md:grid-rows-[auto,1fr] relative">
-  <Tab>PROYECTS</Tab>
+<section id="jobs-&-proyects" class="p-4 md:h-[428px] md:grid md:grid-cols-[40%,60%] md:grid-rows-[auto,1fr] relative">
+  <Tab>JOBS & PROYECTS</Tab>
 
   <div class="relative md:row-start-1 md:row-end-3 md:self-end">
     <img src={StarIcon} alt="Star icon" aria-hidden="true" class="hidden md:block absolute top-[-3rem] left-[5rem]" />
@@ -60,7 +60,7 @@
 
       {#if currentWork}
         <div class="fixed top-0 left-0 z-[10] size-full md:absolute md:grid md:w-[38%]">
-          <Card item={currentWork} on:click={() => handleSelectedCard(null)} class="md:max-h-72" />
+          <Card item={currentWork} on:click={() => handleSelectedCard(null)} class="md:max-h-[26rem]" />
         </div>
       {/if}
 

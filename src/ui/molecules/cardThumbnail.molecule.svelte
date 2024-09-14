@@ -28,9 +28,12 @@
   </span>
 
   <div class="absolute bottom-[-.25rem] right-[-.25rem] flex divide-x hover:divide-vivid-blue">
-    <a href={item.repository_url} target="_blank" class="bg-nero p-2 md:px-4 rounded-tl-lg hover:bg-vivid-blue">
-      <Typography as="TinyParagraph" text="Code" class="text-white" />
-    </a>
+    {#if item.repository_url}
+      <a href={item.repository_url} target="_blank" class="bg-nero p-2 md:px-4 rounded-tl-lg hover:bg-vivid-blue">
+        <Typography as="TinyParagraph" text="Code" class="text-white" />
+      </a>
+    {/if}
+
     <a href={item.site_url} target="_blank" class="bg-nero p-2 md:px-4 hover:bg-vivid-blue rounded-br-lg">
       <Typography as="TinyParagraph" text="Live Site" class="text-white" />
     </a>
