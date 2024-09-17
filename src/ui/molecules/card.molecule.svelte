@@ -15,6 +15,12 @@
 <script lang="ts">
   import Typography from '../atoms/typography.atom.svelte';
   export let item: Work;
+
+  const PositionTextStyle = {
+    'FullStack Developer': 'bg-cyan-300 shadow-cyan-300',
+    'Backend Developer': 'bg-yellow-300 shadow-yellow-300',
+    'Frontend Developer': 'bg-violet-400 shadow-violet-400 text-white',
+  };
 </script>
 
 <div class="size-full {$$props.class}">
@@ -26,7 +32,7 @@
   <div class="size-full pt-8 px-4 pb-72 md:p-4 md:rounded-lg border border-slate-500 bg-white overflow-y-auto">
     <Typography
       as="Heading"
-      class="text-xl w-fit bg-cyan-300 rounded-lg px-4 py-2 mb-4 shadow-cyan-300 shadow-sm"
+      class={`text-xl w-fit rounded-lg px-4 py-2 mb-4 shadow-sm ${PositionTextStyle[item.position]}`}
       text={item.position}
     />
 
