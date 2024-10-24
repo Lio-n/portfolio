@@ -13,7 +13,7 @@
     <Typography as="Paragraph" text="Tools & Skills" class={CustomStyleText} />
   </a>
 
-  <a href="/Leonardo Fontan - Sep 2024.pdf" download="Leonardo Fontan - Sep 2024.pdf">
+  <a href="/Leonardo Fontan - Oct 2024.pdf" download="Leonardo Fontan - Oct 2024.pdf">
     <Typography as="Paragraph" text="Download CV" class={CustomStyleText} />
   </a>
 </div>
