@@ -1,47 +1,51 @@
-# Svelte + TS + Vite
+# Mi Portfolio
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+Bienvenido a mi portfolio, donde presento mis proyectos de desarrollo web y mis experiencias profesionales.
 
-## Recommended IDE Setup
+## Acerca de mí
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Soy un desarrollador apasionado con experiencia en la creación de aplicaciones web y plataformas interactivas. Me especializo en tecnologías como React, Next.js, TypeScript y Node.js, y estoy siempre en busca de nuevos desafíos que me permitan crecer en mi carrera.
 
-## Need an official Svelte framework?
+## Proyectos Destacados
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+### LearnUp
+- **Rol**: Project Manager & Frontend Design
+- **Descripción**: Plataforma educativa interactiva diseñada para facilitar el aprendizaje colaborativo entre los usuarios.
+- **Tecnologías**: React, Next.js, TailwindCSS, Firebase.
+- **Documentación**: [LearnUp Docs](https://jungle-tea-1ef.notion.site/LearnUp-Docs-febe1bd41dd449a389c6894ccae4768d)
+- **Repositorio Frontend**: [new-west-app](https://github.com/Lio-n/new-west-app)
+- **Sitio web en vivo**: [Live Site](https://new-west-app.vercel.app/)
 
-## Technical considerations
+### New West
+- **Rol**: Full Stack Developer
+- **Descripción**: Plataforma de noticias generales con un panel para la creación, edición y gestión del estado de publicación de artículos.
+- **Tecnologías**: ViteJs, GraphQL, ReactJs, TypeScript, TailwindCSS, Strapi, Railway y PostgreSQL.
+- **Repositorio Backend**: [new-west-server](https://github.com/Lio-n/new-west-server)
+- **Repositorio Frontend**: [new-west-app](https://github.com/Lio-n/new-west-app)
+- **Sitio web en vivo**: [Live Site](https://new-west-app.vercel.app/)
 
-**Why use this over SvelteKit?**
+## Habilidades
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+- **JavaScript & TypeScript**
+- **HTML & CSS**
+- **TailwindCSS & Styled-Components**
+- **REST & GraphQL**
+- **Next.js & Vite.js**
+- **Docker**
+- **React.js**
+- **Firebase**
+- **Git & GitHub**
+- **Atomic Design**
+- **Recoil**
+- **Axios**
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+## Contacto
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+Si deseas colaborar o conocer más sobre mí, no dudes en contactarme a través de:
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+- **Email**: [leonardofontan14@gmail.com](mailto:leonardofontan14@gmail.com)
+- **LinkedIn**: [Leonardo Fontan](https://www.linkedin.com/in/leonardo-fontan)
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+¡Gracias por visitar mi portfolio!
 
-**Why include `.vscode/extensions.json`?**
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
